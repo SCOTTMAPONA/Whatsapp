@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Join Exclusive Dating WhatsApp Group</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      background: #fff0f6;
+      font-family: 'Segoe UI', Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      color: #c2185b;
+    }
+    .container {
+      max-width: 420px;
+      background: #fff;
+      margin: 40px auto 20px auto;
+      box-shadow: 0 2px 14px rgba(194,24,91,0.10);
+      border-radius: 15px;
+      padding: 36px 24px 28px 24px;
+      text-align: center;
+    }
+    h1 {
+      font-size: 1.5em;
+      margin-bottom: 10px;
+      color: #c2185b;
+    }
+    .desc {
+      color: #ad1457;
+      font-size: 1.08em;
+      margin-bottom: 24px;
+    }
+    .question {
+      margin-bottom: 18px;
+      text-align: left;
+    }
+    label {
+      font-weight: 500;
+      display: block;
+      margin-bottom: 7px;
+    }
+    input[type="text"], input[type="email"], select {
+      width: 100%;
+      padding: 9px 10px;
+      border: 1px solid #f8bbd0;
+      border-radius: 6px;
+      margin-bottom: 10px;
+      font-size: 1em;
+      color: #c2185b;
+      background: #fff8fb;
+    }
+    .btn {
+      display: inline-block;
+      padding: 11px 28px;
+      font-size: 1em;
+      background: #c2185b;
+      color: #fff;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      margin-top: 10px;
+      transition: background .2s;
+    }
+    .btn:disabled {
+      background: #f8bbd0;
+      cursor: not-allowed;
+    }
+    .success {
+      color: #25d366;
+      font-size: 1.18em;
+      margin: 18px 0 20px 0;
+      font-weight: 500;
+    }
+    .wa-link, .share-link-btn {
+      display: inline-flex;
+      align-items: center;
+      background: #25d366;
+      color: #fff;
+      border-radius: 6px;
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 1.07em;
+      padding: 12px 24px;
+      gap: 7px;
+      margin: 10px 0;
+      transition: background 0.18s;
+      border: none;
+      cursor: pointer;
+    }
+    .wa-link:hover, .share-link-btn:hover {
+      background: #1baa4c;
+    }
+    .wa-icon {
+      font-size: 1.25em;
+    }
+    .error {
+      color: #c03d1c;
+      font-size: 0.97em;
+      margin-bottom: 10px;
+    }
+    .heart {
+      font-size: 2.3em;
+      margin-bottom: 6px;
+      color: #f06292;
+    }
+    .banner-container {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      margin: 0 0 25px 0;
+      padding-top: 10px;
+    }
+    .share-counter {
+      font-size: 1.06em;
+      color: #006ede;
+      font-weight: 600;
+      background: #f1f4f5;
+      padding: 6px 13px;
+      border-radius: 7px;
+      display: inline-block;
+      margin: 16px 0 10px 0;
+    }
+    .wait-message {
+      margin: 18px 0 0 0;
+      color: #888;
+      font-size: 1.05em;
+    }
+    @media (max-width: 540px) {
+      .container {
+        width: 97%;
+        padding: 18px 2vw 20px 2vw;
+      }
+      .banner-container img {
+        width: 98vw !important;
+        height: auto !important;
+        max-width: 100% !important;
+      }
+    }
+  </style>
+</head>
+<body>
+  <!-- Popup overlay script 1 -->
+  <script src="https://crxcr1.com/popin/latest/popin-min.js"></script>
+  <script>
+    var crakPopInParamsOverlay = {
+      url: 'https://t.mbsrv2.com/333135/7799?bo=2753,2C2754,2C2755,2C2756&popUnder=true&aff_sub5=SF_006OG000004lmDN&aff_sub4=AT_0019',
+      decryptUrl: false,
+      contentType: 'overlay',
+      coverOverlay: true, 
+      expireDays: 0.01
+    };
+  </script>
+
+  <!-- Banner at the top -->
+  <div class="banner-container">
+    <a href="https://t.mbsrv2.com/333135/7372?bo=2753,2754,2755,2756&popUnder=true&aff_sub5=SF_006OG000004lmDN&aff_sub4=AT_0002" target="_blank">
+      <img src="https://www.imglnkx.com/9969/DAT-460_DESIGN-23859_7_300100.gif" width="300" height="100" border="0" alt="Dating Banner" />
+    </a>
+  </div>
+
+  <!-- Dating group content -->
+  <div class="container" id="mainContainer">
+    <div class="heart">💗</div>
+    <h1>Join Our Exclusive Dating WhatsApp Group</h1>
+    <div class="desc">
+      Interested in meeting new people and finding your match?<br>
+      Answer a few quick questions to get instant access!
+    </div>
+    <form id="questionForm" autocomplete="off">
+      <div class="question">
+        <label for="name">1. What is your first name?</label>
+        <input type="text" id="name" name="name" required autocomplete="off">
+      </div>
+      <div class="question">
+        <label for="age">2. How old are you?</label>
+        <input type="text" id="age" name="age" pattern="[0-9]{2}" maxlength="2" required autocomplete="off" placeholder="e.g. 24">
+      </div>
+      <div class="question">
+        <label for="gender">3. What is your gender?</label>
+        <select id="gender" name="gender" required>
+          <option value="">Select an option</option>
+          <option>Female</option>
+          <option>Male</option>
+          <option>Non-binary</option>
+          <option>Prefer not to say</option>
+        </select>
+      </div>
+      <div class="question">
+        <label for="interest">4. Who are you interested in meeting?</label>
+        <select id="interest" name="interest" required>
+          <option value="">Select an option</option>
+          <option>Women</option>
+          <option>Men</option>
+          <option>Everyone</option>
+        </select>
+      </div>
+      <div class="error" id="formError" style="display:none;"></div>
+      <button type="submit" class="btn">Submit &amp; Get Group Link</button>
+    </form>
+    <div id="shareSection" style="display:none;">
+      <div class="success">Almost there! To access the WhatsApp group:</div>
+      <div class="desc" style="margin-bottom:10px;">
+        Share this page with <b>10 friends</b> or groups on WhatsApp. Click below to share, then return here.<br>
+        (You must reach 10 shares to get the final group invite)
+      </div>
+      <div class="share-counter" id="shareCounter">Shared: <span id="count">0</span>/10</div>
+      <button class="share-link-btn" id="waShareBtn" type="button">
+        <span class="wa-icon">🟢</span>
+        Share on WhatsApp
+      </button>
+      <div class="wait-message" id="waitMessage" style="display:none;">
+        Thank you for sharing! Please wait patiently to receive your invitation to the WhatsApp group.
+      </div>
+    </div>
+    <div style="margin-top:2em;">
+      <!-- Clickable website link -->
+      <a href="https://www.privatewhatsappgroupforsingles.com" target="_blank" style="display:inline-block;background:#c2185b;color:#fff;padding:14px 28px;border-radius:6px;font-size:1.08em;text-decoration:none;font-weight:600;">
+        https://www.privatewhatsappgroupforsingles.com
+      </a>
+    </div>
+  </div>
+
+  <!-- Chat head widget script -->
+  <script defer src="https://crxcr1.com/cams-widget-ext/im_jerky?lang=en&mode=prerecorded&outlinkUrl=https://t.mbsrv2.com/333135/7272?bo=2753%2C2754%2C2755%2C2756&popUnder=true&aff_sub5=SF_006OG000004lmDN&aff_sub4=AT_0018"></script>
+
+  <!-- Popup overlay script 2 (iframe) -->
+  <script src="https://crxcr1.com/popin/latest/popin-min.js"></script>
+  <script>
+    var crakPopInParamsIframe = {
+      url: 'https://t.mbsrv2.com/333135/9576/0?bo=2753,2754,2755,2756&po=6456&aff_sub5=SF_006OG000004lmDN&aff_sub4=AT_0016',
+      decryptUrl: false,
+      contentUrl: 'https://bestdate.vip/?offer=3880&uid=0cee7a18-0904-49d1-bf82-d0b9c24b3e89&subid=%7Btransaction_id%7D&subid2=%7Baffiliate_id%7D&subid3=%7Bsource%7D&aff_id=1&transaction_id=postitial',
+      decryptContentUrl: false,
+      contentType: 'iframe',
+      width: '90%',
+      height: '90%',
+      timeout: false,
+      delayClose: 0,
+      clickStart: false,
+      closeIntent: false,
+      postitialBehavior: true,
+      closeButtonColor: '#000',
+      closeCrossColor: '#fff',
+      shadow: true,
+      shadowColor: '#000',
+      shadowOpacity: '.5',
+      shadeColor: '#111',
+      shadeOpacity: '0',
+      border: '1px',
+      borderColor: '#000',
+      borderRadius: '0px',
+      leadOut: true,
+      animation: 'slide',
+      direction: 'up',
+      verticalPosition: 'center',
+      horizontalPosition: 'center',
+      expireDays: 0.01
+    };
+  </script>
+
+  <script>
+    // WhatsApp share message and link
+    const shareText = encodeURIComponent(
+      "Join this exclusive Dating WhatsApp group! Answer a few questions and get your invite 👉"
+    ) + "%20" + encodeURIComponent(window.location.href);
+
+    document.getElementById('questionForm').addEventListener('submit', function(e) {
+      e.preventDefault();
+
+      // Validation
+      const name = document.getElementById('name').value.trim();
+      const age = document.getElementById('age').value.trim();
+      const gender = document.getElementById('gender').value;
+      const interest = document.getElementById('interest').value;
+      const errorDiv = document.getElementById('formError');
+      errorDiv.style.display = 'none';
+      errorDiv.textContent = '';
+
+      if (!name || !age || !gender || !interest) {
+        errorDiv.textContent = "Please answer all questions!";
+        errorDiv.style.display = 'block';
+        return;
+      }
+      if (isNaN(Number(age)) || Number(age) < 18) {
+        errorDiv.textContent = "You must be 18 or older to join.";
+        errorDiv.style.display = 'block';
+        return;
+      }
+
+      // Go to sharing step
+      document.getElementById('questionForm').style.display = 'none';
+      document.getElementById('shareSection').style.display = 'block';
+    });
+
+    // Share logic
+    let shareCount = 0;
+    const waShareBtn = document.getElementById('waShareBtn');
+    const shareCounter = document.getElementById('count');
+    const waitMessage = document.getElementById('waitMessage');
+    waShareBtn.addEventListener('click', function() {
+      // Open WhatsApp share
+      window.open('https://wa.me/?text=' + shareText, '_blank');
+      if (shareCount < 10) {
+        shareCount++;
+        shareCounter.textContent = shareCount;
+      }
+      if (shareCount >= 10) {
+        waShareBtn.disabled = true;
+        waShareBtn.textContent = "Shared!";
+        waShareBtn.style.background = "#b5d1f1";
+        waitMessage.style.display = 'block';
+      }
+    });
+  </script>
+</body>
+</html>
